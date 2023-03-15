@@ -1,42 +1,121 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu aniversário</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.scss">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
-<body>
-    <header class="hero">
-        <div class="container">
-            <img class="hero__logo" src="./images/hero.jpg" alt="Frente da Festa">
-            <p class="hero__text">
-                Festa de Aniversário: 26 anos de diversão! Venha participar! Restam <span id="contador"></span> Faça sua inscrição o quanto antes!
-            </p>
-            <div class="infos-bar">
-                <ul class="infos-bar__infos">
-                    <li class="infos-bar__infos__item">
-                        <b>Localização</b>
-                        Rua Teste - Butantã - São Paulo
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Quando</b>
-                        12/12/2023
-                    </li>
-                </ul>
-                <a href="" class="button button--primary">
-                    Se inscreva!
-                </a>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu aniversário</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.scss">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header class="hero">
+            <div class="container">
+                <p class="hero__text">
+                    Festa de Aniversário: 26 anos de diversão! Venha participar! Restam <span id="contador"></span> Faça sua inscrição o quanto antes!
+                </p>
+                <div class="infos-bar">
+                    <ul class="infos-bar__infos">
+                        <li class="infos-bar__infos__item">
+                            <b>Localização</b>
+                            Rua Teste - Butantã - São Paulo
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Quando</b>
+                            28/06/2023
+                        </li>
+                    </ul>
+                    <a href="#frm" class="button button--primary">
+                        Venha participar!
+                    </a>
+                </div>
             </div>
-        </div>
-    </header>
-    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="scripts/main.js"></script>
-</body>
-</html>
+        </header>
+        <section class="event event--features">
+                <div class="container">
+                <img class="event__image" src="images/section1.jpg" alt="Salão de Jogos">
+                <div class="event__details">
+                    <h2 class="event__details__title">Prepare-se para a Festa de Aniversário</h2>
+                    <p class="event__details__description">
+                        Venha celebrar conosco o aniversário do Bruno Silva! A festa acontecerá no dia 28/06/2023, às 13 horas , na Game Stop Center.
+
+                        Prepare-se para uma noite incrível com muita música, comida e diversão. Não esqueça de trazer sua energia e alegria para celebrar essa data especial conosco.
+                        
+                        Confirme sua presença o mais rápido possível e nos avise sobre alguma restrição alimentar ou outra necessidade especial. Mal podemos esperar para celebrar com você!
+                    </p>
+                </div>
+                </div>
+        </section>
+
+        <section class="event event--about">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">Como será a Festa</h2>
+                <p class="event__details__description">
+                    Temos o prazer de convidá-lo para a nossa festa de aniversário! A festa será um evento épico com muitas atividades emocionantes. Para os amantes de jogos, teremos campeonatos de jogos como Mario Kart, League of Legends, Valorant e Super Smash Bros, com prêmios incríveis para os vencedores. Para quem quer relaxar, teremos uma área de lazer com piscina e cadeiras de sol para se refrescar e aproveitar o sol.
+
+O saguão da festa será decorado com um tema incrível, com muitos balões e luzes coloridas, criando um ambiente acolhedor e vibrante para todos os nossos convidados. Teremos música ao vivo para animar a festa, com um DJ tocando as melhores músicas para fazer você dançar.
+
+Não se preocupe com a comida, teremos uma variedade de opções deliciosas para todos os gostos, desde salgadinhos até sobremesas doces e saborosas. Venha vestido como quiser, mas se quiser entrar no clima, o tema da festa é "Noite dos Jogos", então sinta-se à vontade para se vestir de acordo.
+
+Venha comemorar conosco e criar memórias inesquecíveis! Esperamos ver você lá!
+                </p>
+                </div>
+                <img class="event__image" src="./images/section2.jpg" alt="Pool Party">
+            </div>
+        </section>
+
+        <section class="event event--gallery">
+            <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Galeria</h2>
+            </div>
+            <div class="event__gallery">
+                <img class="event__gallery__image" src="./images/galeria/1.jpg" alt="Fotos da festa">
+                <img class="event__gallery__image" src="./images/galeria/2.jpg" alt="Fotos da festa">
+                <img class="event__gallery__image" src="./images/galeria/3.jpg" alt="Fotos da festa">
+                <img class="event__gallery__image" src="./images/galeria/4.jpg" alt="Fotos da festa">
+                <img class="event__gallery__image" src="./images/galeria/5.jpg" alt="Fotos da festa">
+                <img class="event__gallery__image" src="./images/galeria/6.jpg" alt="Fotos da festa">
+            </div>
+            </div>
+        </section>
+        
+
+        <section class="form form--center" id="frm">
+            <div class="container">
+                <div class="form__details form--center">
+                    <h2 class="form__details__title">Inscrição para festa de aniversário</h2>
+                    <form class="form__details__form">
+                    <div class="form__details__form-input form__details__form-input--name">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="form__details__form-input--name">
+                    </div>
+                    <div class="form__details__form-input form__details__form-input--email">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" class="form__details__form-input--email">
+                    </div>
+                    <div class="form__details__form-input form__details__form-input--age">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" class="form__details__form-input--age">
+                    </div>
+                    <div class="form__details__form-input form__details__form-input--phone">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(11) 12345-6789" class="form__details__form-input--phone" required>
+                        <div class="form__details__form-submit">
+                        <button class="button button--secondary" type="submit">Enviar inscrição</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+    </html>

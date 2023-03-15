@@ -1,0 +1,33 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+
+    &--primary {
+        color: variables.$textColor ;
+        background-color: variables.$purple ;
+    }
+
+    &--secondary { 
+        margin-top: 12px;        
+        color: variables.$textColor;   
+        background-color: #ff5500;
+        color: #fff;
+        cursor: pointer;            
+    }
+    
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
